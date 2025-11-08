@@ -1,6 +1,6 @@
 import type { Movie } from '../../types/movie'
 import styles from './MovieGrid.module.css'
-import { getImageUrl } from '../../service/MovieService'
+import { getImageUrl } from '../../serviceB/MovieService'
 
 interface MovieGridProps {
   movies: Movie[]
