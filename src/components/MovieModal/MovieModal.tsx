@@ -17,12 +17,12 @@ export default function MovieModal({ movie, onClose }: MovieModalProps) {
 
     document.addEventListener('keydown', onKey)
 
-    // Вираховуємо ширину скролбару
+    
     const scrollBarWidth = window.innerWidth - document.documentElement.clientWidth
     const prevOverflow = document.body.style.overflow
     const prevPaddingRight = document.body.style.paddingRight
 
-    // Блокуємо скрол і додаємо padding
+    
     document.body.style.overflow = 'hidden'
     document.body.style.paddingRight = `${scrollBarWidth}px`
 

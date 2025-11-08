@@ -37,7 +37,7 @@ export async function fetchMovies(query: string): Promise<TMDBSearchResponse> {
     
     return response.data
   } catch (error) {
-    console.error("❌ Error fetching movies:", error)
+    console.error("Error fetching movies:", error)
     throw error
   }
 }
