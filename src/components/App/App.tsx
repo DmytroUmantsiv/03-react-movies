@@ -6,7 +6,7 @@ import Loader from "../Loader/Loader"
 import ErrorMessage from "../ErrorMessage/ErrorMessage"
 import MovieModal from "../MovieModal/MovieModal"
 import type { Movie } from "../../types/movie"
-import { fetchMovies } from "../../services/moovieService"
+import { fetchMovies } from "../../services/movieService"
 
 export default function App() {
   const [movies, setMovies] = useState<Movie[]>([])
